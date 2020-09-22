@@ -61,17 +61,17 @@ class Quiz extends React.Component {
 
   render() {
     if (!this.state.questions) return null
-
-
     const { questions, answers, incorrectAnswers, number, score } = this.state
     const index = number
     const answersArray = incorrectAnswers[index]
-
+    function createQuestion() {
+      return { __html: `${questions[index]}` }
+    }
     console.log(index)
     return (
       <section className="section">
         <div className="container">
-          <div>{questions[index]}</div>
+          <div dangerouslySetInnerHTML={createQuestion()} />
           <div>
             <button onClick={this.handleClick}>{answers[index]}</button>
             {answersArray && answersArray.map(item => {
