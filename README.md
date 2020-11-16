@@ -30,9 +30,20 @@ We started by searching for a free public API to use without an access key. Afte
 
 - Created a wireframe for the quiz including pseudo code for the correct/wrong answers logic
 - Building out our components for the quiz: homepage, quiz and results
-- Building out logic for the quiz 
+- Building out logic for the quiz
 
-- INSERT snippet of code here
+- Accessing the categories we wanted and mounting them.
+```
+async componentDidMount() {
+    const response = await getAllCategories()
+    const filterResponse = response.data.trivia_categories.filter(category => (category.id === 12 || category.id === 10 || category.id === 15 || category.id === 17 || category.id === 18 || category.id === 23 || category.id === 25 || category.id === 27 || category.id === 31 || category.id === 11))
+    this.setState({
+      categories: filterResponse
+    })
+    console.log(this.state.categories.trivia_categories)
+    console.log(this.state.categories)
+  }
+```
 
 ### Challenges 
 - Accessing the data, it was very embedded 
