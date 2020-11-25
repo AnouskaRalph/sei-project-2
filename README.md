@@ -9,6 +9,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # General Knowedge Quiz - GA Project Two 
 
+![Wireframe Screenshot](src/assets/quiz2.png)
+ 
 ### Goal and timeframe 
 
 - The second project was pair coded hackathon; 48 hours to create a React app that consumed a public API.
