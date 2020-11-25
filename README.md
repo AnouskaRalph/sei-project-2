@@ -45,6 +45,9 @@ async componentDidMount() {
   }
 ```
 
+![Wireframe Screenshot](src/assets/quiz.png)
+
+
 ### Challenges 
 - Accessing the data; this was a challenge due to the data being very embedded. We spent a lot of time breaking down the code trying to access the elements needed. 
 - This was my first time working on a single repository with someone else. This was tricky due to the conflicts that emerge but we quickly resolved these and made sure we weren't working on the same component simultaneously.
