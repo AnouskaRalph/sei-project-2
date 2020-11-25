@@ -1,7 +1,6 @@
 import axios from 'axios'
 
 const baseUrl = 'https://opentdb.com'
-
 const baseUrl2 = 'https://apodapi.herokuapp.com/api/'
 
 
