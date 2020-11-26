@@ -9,6 +9,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # General Knowedge Quiz - GA Project Two 
 
+Link: https://festive-bartik-cff237.netlify.app/ 
+
 ![Wireframe Screenshot](src/assets/quiz2.png)
  
 ### Goal and timeframe 
